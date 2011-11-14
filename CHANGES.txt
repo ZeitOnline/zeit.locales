@@ -1,7 +1,7 @@
 zeit.locales CHANGES
 ====================
 
-0.22.1 (unreleased)
+0.23.0 (2011-11-14)
 +++++++++++++++++++
 
 - Übersetzungen aktualisiert.
