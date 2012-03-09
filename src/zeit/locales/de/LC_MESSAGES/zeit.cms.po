@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
 "POT-Creation-Date: Fri Mar  9 17:19:56 2012\n"
-"PO-Revision-Date: 2012-03-09 17:49+0100\n"
+"PO-Revision-Date: 2012-03-09 18:05+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: \n"
@@ -876,7 +876,7 @@ msgstr "Soll der Artikel im Tages-Newsletter gelistet werden?"
 
 #: zeit/cms/content/interfaces.py:173
 msgid "Show commentthread"
-msgstr ""
+msgstr "Kommentarbereich anzeigen"
 
 #: zeit/cms/content/interfaces.py:181
 msgid "Banner id"
