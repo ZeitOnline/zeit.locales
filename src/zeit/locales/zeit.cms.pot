@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Fri Mar  9 17:19:56 2012\n"
+"POT-Creation-Date: Tue Mar 13 15:51:41 2012\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
@@ -170,18 +170,18 @@ msgid "Complete event"
 msgstr ""
 
 #: zeit/calendar/browser/calendar_macros.pt:42
-#: zeit/cms/browser/action-menu-item.pt:2
-#: zeit/cms/browser/action-menu-item.pt:10
 #: zeit/cms/browser/action-menu-item-with-lightbox.pt:3
 #: zeit/cms/browser/action-menu-item-with-lightbox.pt:9
-#: zeit/cms/browser/menu-context-actions.pt:8
-#: zeit/cms/browser/menu-context-actions.pt:15
+#: zeit/cms/browser/action-menu-item.pt:2
+#: zeit/cms/browser/action-menu-item.pt:10
 #: zeit/cms/browser/main_template.pt:43
 #: zeit/cms/browser/main_template.pt:146
 #: zeit/cms/browser/main_template.pt:157
 #: zeit/cms/browser/main_template.pt:204
 #: zeit/cms/browser/main_template.pt:227
 #: zeit/cms/browser/main_template.pt:245
+#: zeit/cms/browser/menu-context-actions.pt:8
+#: zeit/cms/browser/menu-context-actions.pt:15
 #: zeit/content/cp/browser/blocks/layout.teaser.countings.pt:1
 #: zeit/workflow/browser/workflow-preview.pt:5
 #: zeit/workflow/browser/workflow-preview.pt:10
@@ -758,6 +758,11 @@ msgstr ""
 
 #: zeit/cms/content/browser/template-properties.pt:10
 msgid "Value"
+msgstr ""
+
+#: zeit/cms/content/browser/template-properties.pt:48
+#: zeit/cms/syndication/browser/feed_sorting.pt:8
+msgid "Save"
 msgstr ""
 
 #: zeit/cms/content/browser/template-properties.pt:8
@@ -1354,11 +1359,6 @@ msgstr ""
 msgid "Feed contents"
 msgstr ""
 
-#: zeit/cms/syndication/browser/feed_sorting.pt:8
-#: zeit/cms/content/browser/template-properties.pt:48
-msgid "Save"
-msgstr ""
-
 #: zeit/cms/syndication/browser/form.py:20
 msgid "Add Channel"
 msgstr ""
@@ -1689,12 +1689,12 @@ msgstr ""
 #: zeit/content/cp/interfaces.py:577
 #: zeit/content/gallery/interfaces.py:98
 #: zeit/wysiwyg/browser/resources/citation/dialog.pt:40
-#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:25
 #: zeit/wysiwyg/browser/resources/reference/image.pt:27
+#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:25
 #: zeit/content/gallery/interfaces.py:98
 #: zeit/wysiwyg/browser/resources/citation/dialog.pt:40
-#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:25
 #: zeit/wysiwyg/browser/resources/reference/image.pt:27
+#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:25
 msgid "Layout"
 msgstr ""
 
@@ -1810,6 +1810,11 @@ msgstr ""
 
 #: zeit/content/cp/browser/blocks/teaser.edit-contents.pt:46
 msgid "To add content drop it here."
+msgstr ""
+
+#: zeit/content/cp/browser/blocks/teaser.edit-contents.pt:55
+#: zeit/content/cp/teasergroup/create.pt:3
+msgid "Save teasers as group"
 msgstr ""
 
 #: zeit/content/cp/browser/blocks/teaser.py:217
@@ -2129,11 +2134,6 @@ msgstr ""
 
 #: zeit/content/cp/teasergroup/browser.py:42
 msgid "Display teaser group"
-msgstr ""
-
-#: zeit/content/cp/teasergroup/create.pt:3
-#: zeit/content/cp/browser/blocks/teaser.edit-contents.pt:55
-msgid "Save teasers as group"
 msgstr ""
 
 #: zeit/content/cp/teasergroup/interfaces.py:15
@@ -3020,13 +3020,13 @@ msgid "Unterschrift"
 msgstr ""
 
 #: zeit/wysiwyg/browser/resources/citation/dialog.pt:24
-#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:18
 #: zeit/wysiwyg/browser/resources/reference/gallery.pt:18
 #: zeit/wysiwyg/browser/resources/reference/infobox.pt:18
+#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:18
 #: zeit/wysiwyg/browser/resources/citation/dialog.pt:24
-#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:18
 #: zeit/wysiwyg/browser/resources/reference/gallery.pt:18
 #: zeit/wysiwyg/browser/resources/reference/infobox.pt:18
+#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:18
 msgid "URL"
 msgstr ""
 

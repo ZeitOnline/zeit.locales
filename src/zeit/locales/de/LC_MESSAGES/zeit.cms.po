@@ -14,14 +14,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Development/Unknown\n"
-"POT-Creation-Date: Fri Mar  9 17:19:56 2012\n"
-"PO-Revision-Date: 2012-03-09 18:05+0100\n"
-"Last-Translator: \n"
+"POT-Creation-Date: Tue Mar 13 15:51:41 2012\n"
+"PO-Revision-Date: 2012-03-13 15:52+0100\n"
+"Last-Translator: Christian Zagrodnick <cz@gocept.com>\n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Generated-By: zope/app/locales/extract.py\n"
 
 #: zeit/addcentral/interfaces.py:13
@@ -169,18 +169,18 @@ msgid "Complete event"
 msgstr "Termin erledigen"
 
 #: zeit/calendar/browser/calendar_macros.pt:42
-#: zeit/cms/browser/action-menu-item.pt:2
-#: zeit/cms/browser/action-menu-item.pt:10
 #: zeit/cms/browser/action-menu-item-with-lightbox.pt:3
 #: zeit/cms/browser/action-menu-item-with-lightbox.pt:9
-#: zeit/cms/browser/menu-context-actions.pt:8
-#: zeit/cms/browser/menu-context-actions.pt:15
+#: zeit/cms/browser/action-menu-item.pt:2
+#: zeit/cms/browser/action-menu-item.pt:10
 #: zeit/cms/browser/main_template.pt:43
 #: zeit/cms/browser/main_template.pt:146
 #: zeit/cms/browser/main_template.pt:157
 #: zeit/cms/browser/main_template.pt:204
 #: zeit/cms/browser/main_template.pt:227
 #: zeit/cms/browser/main_template.pt:245
+#: zeit/cms/browser/menu-context-actions.pt:8
+#: zeit/cms/browser/menu-context-actions.pt:15
 #: zeit/content/cp/browser/blocks/layout.teaser.countings.pt:1
 #: zeit/workflow/browser/workflow-preview.pt:5
 #: zeit/workflow/browser/workflow-preview.pt:10
@@ -751,6 +751,11 @@ msgstr "Neues Schlagwort"
 #: zeit/cms/content/browser/template-properties.pt:10
 msgid "Value"
 msgstr "Wert"
+
+#: zeit/cms/content/browser/template-properties.pt:48
+#: zeit/cms/syndication/browser/feed_sorting.pt:8
+msgid "Save"
+msgstr "Speichern"
 
 #: zeit/cms/content/browser/template-properties.pt:8
 msgid "Namespace"
@@ -1345,11 +1350,6 @@ msgstr "Aus Syndizierungszielen entfernen"
 msgid "Feed contents"
 msgstr "Inhalt des Channels"
 
-#: zeit/cms/syndication/browser/feed_sorting.pt:8
-#: zeit/cms/content/browser/template-properties.pt:48
-msgid "Save"
-msgstr "Speichern"
-
 #: zeit/cms/syndication/browser/form.py:20
 msgid "Add Channel"
 msgstr "Channel hinzufügen"
@@ -1677,8 +1677,8 @@ msgstr "Erstes Related als Box"
 #: zeit/content/cp/interfaces.py:577
 #: zeit/content/gallery/interfaces.py:98
 #: zeit/wysiwyg/browser/resources/citation/dialog.pt:40
-#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:25
 #: zeit/wysiwyg/browser/resources/reference/image.pt:27
+#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:25
 msgid "Layout"
 msgstr "Layout"
 
@@ -1796,6 +1796,11 @@ msgstr "In neuem Fenster öffnen"
 msgid "To add content drop it here."
 msgstr "Ziehen Sie Inhalte hierher um einen Teaser hinzuzufügen."
 
+#: zeit/content/cp/browser/blocks/teaser.edit-contents.pt:55
+#: zeit/content/cp/teasergroup/create.pt:3
+msgid "Save teasers as group"
+msgstr "Teaser als Teasergruppe speichern"
+
 #: zeit/content/cp/browser/blocks/teaser.py:217
 msgid "^ Left | Right v"
 msgstr "↑ Links | Rechts ↓"
@@ -1810,9 +1815,8 @@ msgid "Edit centerpage"
 msgstr "Centerpage bearbeiten"
 
 #: zeit/content/cp/browser/form.py:39
-#, fuzzy
 msgid "OG Metadata"
-msgstr "Metadaten"
+msgstr "OG Metadaten"
 
 #: zeit/content/cp/browser/form.py:59
 msgid "Add centerpage"
@@ -2075,7 +2079,7 @@ msgstr "URL 3"
 
 #: zeit/content/cp/interfaces.py:80
 msgid "Titel"
-msgstr ""
+msgstr "Titel"
 
 #: zeit/content/cp/interfaces.py:88
 #: zeit/content/cp/interfaces.py:572
@@ -2111,11 +2115,6 @@ msgstr "Teasergruppe anlegen"
 #: zeit/content/cp/teasergroup/browser.py:42
 msgid "Display teaser group"
 msgstr "Teasergruppe anzeigen"
-
-#: zeit/content/cp/teasergroup/create.pt:3
-#: zeit/content/cp/browser/blocks/teaser.edit-contents.pt:55
-msgid "Save teasers as group"
-msgstr "Teaser als Teasergruppe speichern"
 
 #: zeit/content/cp/teasergroup/interfaces.py:15
 msgid "Name of teaser group"
@@ -2645,26 +2644,23 @@ msgstr "Video 2"
 
 #: zeit/content/video/interfaces.py:23
 msgid "Id prefix"
-msgstr ""
+msgstr "Id prefix"
 
 #: zeit/content/video/interfaces.py:36
-#, fuzzy
 msgid "URI of the rendition"
-msgstr "URI der Playlist"
+msgstr "URI der rendition"
 
 #: zeit/content/video/interfaces.py:41
-#, fuzzy
 msgid "Width of the Frame"
-msgstr "Teaserliste"
+msgstr "Frame-Breite"
 
 #: zeit/content/video/interfaces.py:67
 msgid "Renditions of the Video"
-msgstr ""
+msgstr "Renditions des Videos"
 
 #: zeit/content/video/interfaces.py:98
-#, fuzzy
 msgid "Videos in the playlist"
-msgstr "Playlist anzeigen"
+msgstr "Videos in der Playlist"
 
 #: zeit/content/video/playlist.py:36
 msgid "Playlist"
@@ -2958,9 +2954,9 @@ msgid "Unterschrift"
 msgstr "Unterschrift"
 
 #: zeit/wysiwyg/browser/resources/citation/dialog.pt:24
-#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:18
 #: zeit/wysiwyg/browser/resources/reference/gallery.pt:18
 #: zeit/wysiwyg/browser/resources/reference/infobox.pt:18
+#: zeit/wysiwyg/browser/resources/reference/portraitbox.pt:18
 msgid "URL"
 msgstr "URL"
 
